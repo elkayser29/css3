@@ -23,4 +23,10 @@
 23. plate apple:only-of-type
 24. orange:last-of-type, apple:last-of-type
 25. bento:empty
-26. 
+26. :not(plate, .small)
+27. [for]
+28. plate[for]
+29. [for="Vitaly"]
+30.  [for^="Sa"]
+31. [for^="Sa"]
+32. [for*="bb"]
